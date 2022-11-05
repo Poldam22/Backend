@@ -1,0 +1,18 @@
+[{
+  "tittle": "Remera",
+  "price": 1500,
+  "thumbnail": "https://pimpumpills.com/home/producto/remera-cuphead/",
+  "id":1
+},
+{
+  "tittle": "buzo",
+  "price": 6.499,
+  "thumbnail": "https://www.dexter.com.ar/buzo-nike-sportwear-hybrid/NI_CJ4435-071_M_1.html",
+  "id":2
+},
+{
+  "tittle": "jean",
+  "price": 22.9,
+  "thumbnail": "https://www.solodeportes.com.ar/filmore.html?nosto=productcategory-nosto-1-fallback-nosto-1",
+  "id":3
+}]
