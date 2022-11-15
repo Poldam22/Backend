@@ -1,8 +1,0 @@
-[
-  {
-    "tittle": "Remera",
-    "price": 1500,
-    "thumbnail": "https://pimpumpills.com/home/producto/remera-cuphead/",
-    "id": 1
-  }
-]

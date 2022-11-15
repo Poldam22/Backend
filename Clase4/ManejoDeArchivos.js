@@ -90,12 +90,12 @@ const producto3={
 
 
 // const container = new Container('./products.txt', JSON.stringify(producto1, null, 2));
-const productos = new Container('./products.txt')
+const productos = new Container('./products.doc')
 
 // productos.getAll()
 // productos.deleteAll()
-// productos.save(producto1)
+productos.save(producto2)
 // productos.getById(2).then(a=>console.log(a))
-productos.deleteById(3);
+// productos.deleteById(3);
 
 module.exports=Container
