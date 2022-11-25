@@ -1,0 +1,3 @@
+ El motor de plantilla que prefiero es el ejs.
+ Ya que me pareció mas facil de usar, tiene una documentación más amplia, me resulto más dinamico, no hay que configurar el engine y 
+se puede escribir js de forma más amigable.
