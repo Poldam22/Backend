@@ -1,0 +1,20 @@
+[
+  {
+    "tittle": "Remera",
+    "price": 1500,
+    "thumbnail": "https://pimpumpills.com/home/producto/remera-cuphead/",
+    "id": 1
+  },
+  {
+    "tittle": "Remera",
+    "price": 1500,
+    "thumbnail": "https://pimpumpills.com/home/producto/remera-cuphead/",
+    "id": 2
+  },
+  {
+    "tittle": "jean",
+    "price": 22.9,
+    "thumbnail": "https://www.solodeportes.com.ar/filmore.html?nosto=productcategory-nosto-1-fallback-nosto-1",
+    "id": 3
+  }
+]

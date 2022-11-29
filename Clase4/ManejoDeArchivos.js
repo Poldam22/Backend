@@ -1,5 +1,3 @@
-const { stringify } = require('querystring');
-
 const fs = require('fs')
 
 
@@ -90,12 +88,12 @@ const producto3={
 
 
 // const container = new Container('./products.txt', JSON.stringify(producto1, null, 2));
-const productos = new Container('./products.doc')
+const productos = new Container('data/products.doc')
 
 // productos.getAll()
 // productos.deleteAll()
-productos.save(producto2)
+// productos.save(producto2)
 // productos.getById(2).then(a=>console.log(a))
-// productos.deleteById(3);
+productos.deleteById(5);
 
 module.exports=Container
