@@ -1,3 +1,5 @@
+
+
 class Usuario {
     constructor(nombre, apellido, libros, mascotas) {
       this.nombre = nombre;
@@ -36,6 +38,8 @@ class Usuario {
   console.log(usuario.addBook('El Hobbit', 'J.R.R.Tolkien'));
   console.log(usuario.addBook('El Señor De Las Moscas', 'William Golding'));
   console.log(usuario.getBookNames());
- 
- 
-  
+
+
+    let a =new Date()
+    
+console.log(a.toString());
