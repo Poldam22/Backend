@@ -37,12 +37,21 @@ const mariaDbClient = knex(config.mariaDb);
 
 //------------------------------------------
 // mensajes en SQLite3
-try {
+(async() =>{
+
     const sqliteClient = knex(config.sqlite3)
-
-    //Implementar creación de tabla
-
-    console.log('tabla mensajes en sqlite3 creada con éxito')
+try {
+   
+    await sqliteClient.schema.createTable('mensajes', table => {
+        table.string('email');
+        table.string('text');
+        table.date('fyh')
+    })
 } catch (error) {
-    console.log('error al crear tabla mensajes en sqlite3')
+    console.log('error al crear tabla productos en mariaDb')
+    console.log(error)
+}finally{
+    sqliteClient.destroy()
 }
+
+})()
