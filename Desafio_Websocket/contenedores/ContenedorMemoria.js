@@ -1,7 +1,12 @@
 class ContenedorMemoria {
     constructor() {
         this.mensajes = [
-            {email:'pedrito@gmail.com', text:'Hola!'}
+            {email:'pedrito@gmail.com', text:'Hola!'},
+            {email:'juan@gmail.com', text:'Hola, como estan?'},
+            {email:'diego@gmail.com', text:'Bien, cuando nos juntamos?'},
+            {email:'pedrito@gmail.com', text:'Cuando quieran'},
+            {email:'juan@gmail.com', text:'Fecha?'}
+
         ]
     }
 

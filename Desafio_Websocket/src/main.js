@@ -53,7 +53,7 @@ app.use(express.static('public'))
 //--------------------------------------------
 // inicio el servidor
 
-const PORT = 8080
+const PORT = 8085
 const connectedServer = httpServer.listen(PORT, () => {
     console.log(`Servidor http escuchando en el puerto ${connectedServer.address().port}`)
 })

@@ -22,6 +22,7 @@ formAgregarProducto.addEventListener('submit', e => {
 
     formPublicarMensaje.reset()
     inputMensaje.focus()
+
 })
 
 socket.on('productos', productos =>{makeHtmlTable(productos)})

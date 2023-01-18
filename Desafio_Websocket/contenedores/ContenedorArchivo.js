@@ -6,16 +6,39 @@ class ContenedorArchivo {
             {
                 title: 'Mochila',
                 price: 1500,
-                thumbnail: 'https://cdn3.iconfinder.com/data/icons/education-209/64/bag-pack-container-school-64.png',
-                id: 1
+                thumbnail: 'https://cdn3.iconfinder.com/data/icons/education-209/64/bag-pack-container-school-64.png'
+            },
+            {
+                title: 'Lapiz',
+                price: 200,
+                thumbnail: 'https://cdn3.iconfinder.com/data/icons/education-209/64/bag-pack-container-school-64.png'
+            },
+            {
+                title: 'Lapicera',
+                price: 300,
+                thumbnail: 'https://cdn3.iconfinder.com/data/icons/education-209/64/bag-pack-container-school-64.png'
+            },
+            {
+                title: 'Fibras',
+                price: 500,
+                thumbnail: 'https://cdn3.iconfinder.com/data/icons/education-209/64/bag-pack-container-school-64.png'
+            },
+            {
+                title: 'Cartuchera',
+                price: 700,
+                thumbnail: 'https://cdn3.iconfinder.com/data/icons/education-209/64/bag-pack-container-school-64.png'
+            },
+            {
+                title: 'Juguete',
+                price: 4000,
+                thumbnail: 'https://cdn3.iconfinder.com/data/icons/education-209/64/bag-pack-container-school-64.png'
             },
             
             
             {
                 title: 'Calculadora',
                 price: 700,
-                thumbnail: 'https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-64.png',
-                id: 2
+                thumbnail: 'https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-64.png'
             }
             ]
         this.id = 0
