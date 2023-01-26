@@ -10,7 +10,7 @@ authWebRouter.get('/', (req, res) => {
 
 authWebRouter.get('/login', (req, res) => {
     const nombre = req.session?.nombre
-    if (nombre === 'pablo') {
+    if (nombre) {
         res.redirect('/')
     } else {
         res.sendFile(path.join(process.cwd(), '/views/login.html'))
