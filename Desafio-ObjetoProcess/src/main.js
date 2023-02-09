@@ -2,6 +2,7 @@ import express from 'express'
 import session from 'express-session'
 import MongoStore from 'connect-mongo'
 import util from 'util'
+import { fork } from 'child_process'
 
 import config from './config.js'
 
@@ -14,6 +15,7 @@ import productosApiRouter from './routers/api/productos.js'
 
 import addProductosHandlers from './routers/ws/productos.js'
 import addMensajesHandlers from './routers/ws/mensajes.js'
+
 
 //--------------------------------------------
 // instancio servidor, socket y api
@@ -62,6 +64,29 @@ app.use(productosApiRouter)
 
 app.use(authWebRouter)
 app.use(homeWebRouter)
+
+
+
+function calculate(num) {
+    return new Promise((res, rej)=>{
+        const forkedProcess = fork('./src/calculoNumeros.js');
+        forkedProcess.on('message', (msg)=>{
+            if(msg='ready'){
+                forkedProcess.send(num);
+            }else{
+                res(msg);
+            }
+        })
+    })
+}
+
+//ruta numeros random
+app.get('/randoms', async(req, res)=>{
+    const {num = 100_000_00} = req.query;
+    const result = await calculate(num);
+    res.json(result);
+    res.send('hola')
+})
 
 //ruta info
 app.get('/info', (req,res)=>{
