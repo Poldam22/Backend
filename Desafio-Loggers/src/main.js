@@ -126,9 +126,6 @@ app.get('/randoms', async(req, res)=>{
 
 //ruta info
 app.get('/info', (req,res)=>{
-//    let aa ={ Directorio: process.cwd(), Idproceso: process.pid, Vnode: process.version, Plataforma: process.platform,
-//      Memoria: util.inspect(process.memoryUsage(), {showHidden:false, depth:12, colors:true}), Nproceso:process.title}
-//    res.json(aa)
 
 res.render('../views/pages/info.ejs', { Directorio: process.cwd(), Idproceso: process.pid, Vnode: process.version, Plataforma: process.platform,
       Memoria: util.inspect(process.memoryUsage(), {showHidden:false, depth:12, colors:true}), Nproceso:process.title})
