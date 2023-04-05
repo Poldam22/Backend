@@ -1,0 +1,23 @@
+<div class="container text-center my-3">
+    <div class="jumbotron" style="background-color: grey;color: white;">
+        <h1 style="color: brown;">USER OK LOGIN!</h1>
+        <h2><i>Bienvenid@ {{datos.email}}</i></h2>
+        <br>
+        <h3 style="color: brown;">Pedido</h3>
+            <h4>Remera: {{pedido.remera}}</h4>
+            <h4>Jean: {{pedido.jean}}</h4>
+            <h4>Zapatilla: {{pedido.zapatilla}}</h4>
+        <br>
+        <h3 style="color:brown">Datos Cliente</h3>
+            <h4>Dirección: {{datos.direccion}}</h4>
+            <h4>Nombre: {{datos.nombre}}</h4>
+            <h4>Edad: {{datos.edad}}</h4>
+            <h4>Numero de telefono: {{datos.numerocel}}</h4>
+            <h4>visitas: {{contador}}</h4>
+        <button class="btn btn-danger my-5" onclick="location.href='/logout'">Salir</button>
+        <button class="btn btn-danger my-5" onclick="location.href='/nav'">Productos</button>
+        <button class="btn btn-danger my-5" onclick="location.href='/pedido'">Finalizar compra</button>
+
+
+    </div>
+</div>
