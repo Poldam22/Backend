@@ -1,0 +1,70 @@
+<div>
+<ul class="nav justify-content-center" style="background-color: grey; height: 4rem;">
+  
+  <li class="nav-item">
+    <a class="nav-link" style="color: white; margin-right: 2rem; padding: 1rem" href="/nav"><h4>Productos</h4></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" style="color: red; margin-left: 2rem; padding: 1rem" href="/datos"><h4>Carrito</h4></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" style="color: rgba(255, 251, 0, 0.849) ; margin-left: 2rem; padding: 1rem" href="/chat"><h4>Consultas</h4></a>
+  </li>
+</ul>
+
+<form class="form" action="/nav" method="post" role="form" autocomplete="off">
+<div class="card-deck" style="margin: 2rem;">
+  <div class="card">
+    <img class="card-img-top" src='/remeras.webp' style="height:70vh" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Remeras</h5>
+        <br>
+      <select class="form-select" aria-label="Default select example" id="remera" name="remera">
+  <option value="">Selecciona remera</option>
+  <option value="StrangerThings">Stranger Things</option>
+  <option value="UpsideDown">Upside Down</option>
+  <option value="HellfireClub">Hellfire Club</option>
+  <option value="Bitchin">Bitchin</option>
+
+</select>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="/jeans3.jpg" style="height:70vh"alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Jeans</h5>
+      <br>
+      <select class="form-select" aria-label="Default select example" id="jean" name="jean">
+  <option value="">Selecciona Jean</option>
+  <option value="Levis">Levis</option>
+  <option value="Kevingston">Kevingston</option>
+  <option value="Taverniti">Taverniti</option>
+  <option value="OldBridge">Old Bridge</option>
+</select>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="/adidas.jpeg" style="height:70vh" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Zapatillas</h5>
+      <br>
+      <select class="form-select" aria-label="Default select example" id="zapatilla" name="zapatilla">
+  <option value="">Selecciona zapatilla</option>
+  <option value="Adidas">Adidas</option>
+  <option value="Nike">Nike</option>
+  <option value="NewBalance">New Balance</option>
+  <option value="Vans">Vans</option>
+
+</select>
+    </div>
+  </div>
+
+</div>
+    <div class="form-group d-flex justify-content-center">
+          <input class="btn btn-success my-3" style="width: 30%;" type="submit" value="Comprar">
+        </div>
+
+</form>
+</div>

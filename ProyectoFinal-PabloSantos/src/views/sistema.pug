@@ -1,0 +1,18 @@
+html 
+    head
+        title= 'Ecommerce' 
+    body
+        - const item = 'color:yellow; padding-left: 1rem'
+        - const dato = 'color:white; padding-left: 1rem '
+        div(style='background:grey; margin: 4rem; height: 80vh; border-radius: 10px') 
+            h1(style='color:brown; text-align: center')= 'Informacion del servidor'
+                h3(style= item)= 'Directorio: '  
+                p(style= dato)= directorio
+                h3(style= item)= 'IDProceso: '  
+                p(style= dato)= idproceso 
+                h3(style= item)= 'Versión node: '  
+                p(style= dato)= vnode 
+                h3(style= item)= 'Plataforma: '  
+                p(style= dato)= plataforma
+                h3(style= item)= 'Memoria: '  
+                p(style= dato)= memoria 
